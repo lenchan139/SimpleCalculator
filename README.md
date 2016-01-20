@@ -1,3 +1,2 @@
 # SimpleCalculator
-Just example for my friend.
-.
+Just a simple example program fo newbie :)
