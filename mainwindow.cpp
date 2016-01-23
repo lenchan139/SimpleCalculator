@@ -35,7 +35,7 @@ void MainWindow::on_btnCalculate_clicked()
         strInputs1 = strInputs1.indexOf(1);
     }*/
 
-    //vaild check, if QString is not a vaild number, QString.toDouble will return 0.
+    //vaild check.
     if( Checker::checkStr(strInputs1,strInputs2) ){
         dblInput1 = ui->lineInput1->text().toDouble();
         dblInput2 = ui->lineInput2->text().toDouble();
